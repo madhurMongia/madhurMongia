@@ -11,8 +11,6 @@
 
 ###
 
-<img align="right" height="150" src="https://media.giphy.com/media/unQ3IJU2RG7DO/giphy.gif?cid=790b7611i57asfpk6sp7st9xylhkvpm9ynr1gs9nb2s1iv25&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
-
 ###
 
 <div align="left">

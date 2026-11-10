@@ -1,52 +1,13 @@
-<br clear="both">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/madhurMongia/madhurMongia/output/card-dark.svg">
+  <img width="100%" alt="ASCII portrait of Madhur Mongia next to a neofetch-style summary: backend engineer at PepsiCo, previously Kleros, Samsung R&D and Ringover; works in TypeScript, Java, Python and Solidity; live GitHub stats." src="https://raw.githubusercontent.com/madhurMongia/madhurMongia/output/card-light.svg">
+</picture>
 
-<h2 align="left">Hi 👋! My name is Madhur and I'm a software engineer from Earth-1218</h2>
+Hi, I'm Madhur. I write backend and Web3 code, mostly in TypeScript, Java and Python. I work on event-driven services at PepsiCo, and before that I spent two years building [Proof of Humanity](https://v2.proofofhumanity.id) at Kleros.
 
-###
+The quickest way to reach me is [email](mailto:madhurmongia33@gmail.com) or [LinkedIn](https://www.linkedin.com/in/madhurmongia). I'm on IST (UTC+5:30), and I'm happy to talk about distributed systems, smart contracts, or anything in my repos.
 
-<div align="center">
-  <img src="https://readme-stats-madhurmongias-projects.vercel.app/api?username=madhurMongia&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://readme-stats-madhurmongias-projects.vercel.app/api?username=madhurMongia&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=true" height="150" alt="languages graph"  />
-</div>
-
-###
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
-</div>
-
-###
-
-<div align="left">
-  <a href="https://www.linkedin.com/in/madhurmongia" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="madhurmongia33@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="https://www.instagram.com/madhur._r" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-</div>
-
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/madhurMongia/madhurMongia/output/snake.svg" alt="Snake animation" />
-
-###
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/madhurMongia/madhurMongia/output/snake-dark.svg">
+  <img width="100%" alt="A snake eating my GitHub contribution graph." src="https://raw.githubusercontent.com/madhurMongia/madhurMongia/output/snake-light.svg">
+</picture>

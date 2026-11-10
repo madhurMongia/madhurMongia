@@ -7,6 +7,14 @@ Hi, I'm Madhur. I build distributed systems and, lately, AI agents and agentic w
 
 The quickest way to reach me is [email](mailto:madhurmongia33@gmail.com) or [LinkedIn](https://www.linkedin.com/in/madhurmongia). I'm on IST (UTC+5:30), and I'm happy to talk about distributed systems, AI agents, or anything in my repos.
 
+This repo is also an MCP server, so your agent can ask about me directly:
+
+```bash
+claude mcp add madhur -- npx -y github:madhurMongia/madhurMongia
+```
+
+Then ask it something like "what's Madhur's stack?" or "how do I reach him?" It runs on your machine, has no dependencies, makes no network calls, and only knows what's on this page. In other MCP clients, use the command `npx -y github:madhurMongia/madhurMongia`.
+
 <details>
 <summary><code>$ cat ~/now.md</code></summary>
 

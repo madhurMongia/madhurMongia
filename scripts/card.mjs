@@ -8,29 +8,8 @@ import { dirname, join } from 'node:path';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const [login = 'madhurMongia', outDir = 'dist'] = process.argv.slice(2);
 
-// ---- Edit these by hand -------------------------------------------------------------
-const HOST = 'madhur@mongia';
-const PROFILE = [
-  ['Work', 'PepsiCo, backend'],
-  ['Before', 'Kleros, Samsung R&D, Ringover'],
-  ['Location', 'Gurgaon, IN (UTC+5:30)'],
-  ['Uptime', null], // filled from the account's creation date
-  ['Focus', 'distributed systems, agentic workflows'],
-];
-const STACK = [
-  ['Languages', 'TypeScript, Java, Python, SQL'],
-  ['Backend', 'Node.js, NestJS, Spring Boot'],
-  ['Data', 'Kafka, PostgreSQL, Redis, Couchbase'],
-  ['Cloud', 'AWS ECS, MSK, SQS'],
-  ['AI', 'agents, MCP, tool calling, evals'],
-  ['Frontend', 'React, Next.js'],
-];
-const CONTACT = [
-  ['Email', 'madhurmongia33@gmail.com'],
-  ['LinkedIn', 'in/madhurmongia'],
-  ['Instagram', 'madhur._r'],
-];
-// --------------------------------------------------------------------------------------
+// The facts on the card live in profile.mjs, shared with the MCP server.
+import { HOST, PROFILE, STACK, CONTACT, uptime } from '../profile.mjs';
 
 const QUERY = `query($login:String!){user(login:$login){
   createdAt followers{totalCount}
@@ -50,15 +29,6 @@ async function fetchUser() {
   const json = await res.json();
   if (!res.ok || json.errors) throw new Error(`GitHub API ${res.status}: ${JSON.stringify(json.errors ?? json)}`);
   return json.data.user;
-}
-
-export function uptime(createdAt, now = new Date()) {
-  const c = new Date(createdAt);
-  let months = (now.getUTCFullYear() - c.getUTCFullYear()) * 12 + (now.getUTCMonth() - c.getUTCMonth());
-  if (now.getUTCDate() < c.getUTCDate()) months--;
-  const y = Math.floor(months / 12), m = months % 12;
-  const part = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
-  return m ? `${part(y, 'year')}, ${part(m, 'month')}` : part(y, 'year');
 }
 
 export function stats(u) {

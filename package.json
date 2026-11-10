@@ -1,0 +1,17 @@
+{
+  "name": "madhur",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An MCP server about Madhur Mongia. Run with: npx -y github:madhurMongia/madhurMongia",
+  "type": "module",
+  "bin": {
+    "madhur": "mcp/server.mjs"
+  },
+  "files": [
+    "mcp/",
+    "profile.mjs"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

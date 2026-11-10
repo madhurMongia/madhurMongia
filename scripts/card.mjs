@@ -15,14 +15,14 @@ const PROFILE = [
   ['Before', 'Kleros, Samsung R&D, Ringover'],
   ['Location', 'Gurgaon, IN (UTC+5:30)'],
   ['Uptime', null], // filled from the account's creation date
-  ['Focus', 'event-driven systems, Web3'],
+  ['Focus', 'distributed systems, agentic workflows'],
 ];
 const STACK = [
-  ['Languages', 'TypeScript, Java, Python, Solidity'],
+  ['Languages', 'TypeScript, Java, Python, SQL'],
   ['Backend', 'Node.js, NestJS, Spring Boot'],
-  ['Data', 'Kafka, PostgreSQL, Redis, SQL'],
+  ['Data', 'Kafka, PostgreSQL, Redis, Couchbase'],
   ['Cloud', 'AWS ECS, MSK, SQS'],
-  ['Web3', 'Ethereum, Gnosis, The Graph'],
+  ['AI', 'agents, MCP, tool calling, evals'],
   ['Frontend', 'React, Next.js'],
 ];
 const CONTACT = [
